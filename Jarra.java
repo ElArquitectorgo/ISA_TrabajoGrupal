@@ -12,4 +12,13 @@ public class Jarra { //atributos private int cantidad;
     // Comentario incluido para pruebas
         System.out.println("Aqui escribimos todos"); 
     }
+
+    public void llena() {
+        this.cantidad=this.capacidad; 
+    }
+
+    public void vacia() {
+        this.cantidad=0; 
+    }
+
 }
