@@ -20,7 +20,8 @@ return this.cantidad; }
     // 3
     public void metodoComunitario(){
     // Comentario incluido para pruebas
-        System.out.println("Aqui escribimos todos"); 
+        System.out.println("Aqui escribimos todos");
+	System.out.println("Pablo Moreno García-Espina");
     }
 
     public void llenaDesde(Jarra j)
