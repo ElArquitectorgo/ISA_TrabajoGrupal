@@ -5,20 +5,32 @@ public class Jarra { //atributos private int cantidad;
             throw new RuntimeException("ERROR: no se pueden crear jarras } con capacidad menor o igual que cero.");
         }
         this.capacidad=capacidadInicial; }
-    // metodos // 1
-    // 2
-    // 3
-    public void metodoComunitario(){
-    // Comentario incluido para pruebas
-        System.out.println("Aqui escribimos todos"); 
-    }
-
+    // metodos 
+public int capacidad(){ return this.capacidad;
+}
+public int cantidad(){
+return this.cantidad; }
     public void llena() {
         this.cantidad=this.capacidad; 
     }
 
     public void vacia() {
         this.cantidad=0; 
+    }
+    // 3
+    public void metodoComunitario(){
+    // Comentario incluido para pruebas
+        System.out.println("Aqui escribimos todos"); 
+    }
+
+    public void llenaDesde(Jarra j)
+    {   while((this.cantidad<this.capacidad)&&(j.cantidad>0))
+        {
+        this.cantidad++;
+        j.cantidad--; 
+    }
+    public String toString(){
+        return ("("+this.capacidad+","+this.cantidad+")");
     }
 
 }
