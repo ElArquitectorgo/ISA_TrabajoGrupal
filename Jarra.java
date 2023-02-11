@@ -21,6 +21,7 @@ return this.cantidad; }
     public void metodoComunitario(){
     // Comentario incluido para pruebas
         System.out.println("Aqui escribimos todos"); 
+        System.out.println("Víctor el mejor (Guirado Osorio)")
     }
 
     public void llenaDesde(Jarra j)
