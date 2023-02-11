@@ -21,6 +21,7 @@ return this.cantidad; }
     public void metodoComunitario(){
     // Comentario incluido para pruebas
         System.out.println("Aqui escribimos todos"); 
+System.out.println("Susana Rocio Fernandez Giaccomassi"); 
     }
 
     public void llenaDesde(Jarra j)
