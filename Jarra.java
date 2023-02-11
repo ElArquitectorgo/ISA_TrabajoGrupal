@@ -23,6 +23,7 @@ return this.cantidad; }
 
         System.out.println("Aqui escribimos todos");
 	System.out.println("Pablo Moreno García-Espina");
+	System.out.println("Susana Rocio Fernandez Giaccomassi"); 
         System.out.println("Víctor el mejor (Guirado Osorio)")
 
     }
